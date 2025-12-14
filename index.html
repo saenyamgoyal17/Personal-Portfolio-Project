@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Personal Portfolio Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- font used across the site -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- main stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- three.js for 3D animation -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+</head>
+<body>
+
+  <!-- top navigation bar -->
+  <nav class="navbar">
+    <div class="nav-logo">Saenyam's Portfolio</div>
+    <ul class="nav-links">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#extras" class="nav-link">Extras</a></li>
+    </ul>
+  </nav>
+
+  <!-- main hero section -->
+  <header>
+    <div>
+      <h1>Hi, I'm <span>Saenyam Goyal</span></h1>
+      <p>
+        I'm a first-year student, a hustler, who is passionate, likes to learn, do coding and 
+        wants to work on real world projects. As of now I am a newbie who doesn't know much about coding,
+        but I am going to make sure that I become one of the best coders in the future.
+        This portfolio is my first frontend project and was created as part of a club recruitment task.
+      </p>
+
+      <div class="btns">
+        <a href="https://github.com/saenyamgoyal17" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/saenyam-goyal-09879028b/" target="_blank" class="secondary">LinkedIn</a>
+      </div>
+    </div>
+
+    <!-- container for the 3D galaxy -->
+    <div id="three-container"></div>
+  </header>
+
+  <!-- about section -->
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>🎓 Education</h3>
+        <p>
+          First year undergraduate student pursuing BTech in CSE with specialization
+          in AI and ML at VIT Vellore.
+        </p>
+      </div>
+      <div class="card">
+        <h3>💻 Interests</h3>
+        <p>
+          Web development, coding, cricket, gaming, binge watching web series,
+          and exploring more in technology and programming.
+        </p>
+      </div>
+      <div class="card">
+        <h3>🚀 Goal</h3>
+        <p>
+          To become a full stack developer, contribute to real-world projects,
+          and get placed at big companies like Microsoft and Google.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- skills section -->
+  <section id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="cards">
+      <div class="card">HTML</div>
+      <div class="card">CSS</div>
+      <div class="card">JavaScript</div>
+      <div class="card">Git & GitHub</div>
+    </div>
+  </section>
+
+  <!-- projects section -->
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects-wrapper">
+      <!-- first project -->
+      <div class="project-left">
+        <div class="card">
+          <h3>🌌 Personal Portfolio Website</h3>
+          <p>
+            This is my first frontend project built using HTML, CSS, JavaScript,
+            and Three.js. It includes a mouse-interactive 3D galaxy, smooth scrolling,
+            and a responsive layout.
+          </p>
+        </div>
+      </div>
+
+      <!-- simple divider -->
+      <div class="project-divider"></div>
+
+      <!-- future projects text -->
+      <div class="project-right">
+        <p class="coming-text">
+          Just started,<br />Many more to come....
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- extra details -->
+  <section id="extras">
+    <h2 class="section-title">Extras</h2>
+    <div class="cards">
+      <div class="card">
+        🧠 Trying to solve and practice coding problems in free time
+      </div>
+      <div class="card">
+        🎮 Valorant Rank – Diamond 1 (peak) at 40–50 fps, CODM Rank – Grandmaster 3
+      </div>
+      <div class="card">
+        😴 Loves to sleep and hibernate
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 | Built using HTML, CSS, JavaScript & Three.js
+  </footer>
+
+  <!-- main javascript file -->
+  <script src="js/main.js"></script>
+</body>
+</html>
