@@ -8,7 +8,7 @@ The goal of this project is to introduce myself, showcase my skills, and demonst
 
 👉 Live Demo:
 
-https://saenyamgoyal17.github.io/portfolio/
+https://saenyamgoyal17.github.io/Personal-Portfolio-Project/
 
 📌 About the Project
 
